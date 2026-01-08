@@ -12,7 +12,7 @@ export const analyzeText = async (text: string): Promise<AnalysisResult> => {
     Paragraph: "${text}"
     
     Rules:
-    1. Extract unique, academic, high-frequency IELTS vocabulary.
+    1. Extract unique, academic, high-frequency IELTS vocabulary minimum 10.
     2. Exclude common stopwords and non-academic proper nouns.
     3. Provide contextual meanings (English and Bengali).
     4. Provide alternatives matching the formal IELTS register.
